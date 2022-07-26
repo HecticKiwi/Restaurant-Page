@@ -1,0 +1,73 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --transition-time: 400ms;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/diner.webp") center/cover;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 8.375rem 1fr 8.375rem;
+}
+
+h1 {
+    color: lightseagreen;
+    font-size: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+.nav-link {
+    background: none;
+    border: none;
+    padding: 0;
+    transition: var(--transition-time);
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+
+.nav-link img {
+    position: relative;
+    width: 4rem;
+    transition: var(--transition-time);
+}
+
+.selected {
+    border-bottom: 3px solid lightseagreen;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid lightseagreen;
+}
+
+.nav-link:hover img {
+    transform: translateY(-0.5rem);
+}
+
+.tagline {
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: gray;
+}
