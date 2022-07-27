@@ -22,8 +22,8 @@ function loadMenu() {
   menu.appendChild(createMenuItem('./images/milkshake.webp', 'Milkshake', 'A delicious beverage to complement your meal.'));
   main.appendChild(menu);
 
-  document.querySelector('#home').classList.add('selected');
-  document.querySelector('#menu').classList.remove('selected');
+  document.querySelector('#home').classList.remove('selected');
+  document.querySelector('#menu').classList.add('selected');
   document.querySelector('#contact').classList.remove('selected');
 }
 
