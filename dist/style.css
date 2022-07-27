@@ -19,6 +19,11 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    color: lightseagreen;
+    font-size: 2rem;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -63,6 +68,29 @@ main {
 
 .tagline {
     font-size: 2rem;
+}
+
+.menu {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.menu .item {
+    width: 15rem;
+}
+
+.menu .item p {
+    color: lightgray;
+}
+
+.menu .item img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    box-shadow: 0 0 1rem lightseagreen;
+    object-fit: cover;
 }
 
 footer {
