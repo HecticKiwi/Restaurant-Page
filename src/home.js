@@ -5,7 +5,7 @@ function loadHome() {
   main.innerHTML = '';
 
   main.appendChild(createElement('h1', 'Restaurant'));
-  main.appendChild(createElement('p', 'We treat you like family', 'tagline'));
+  main.appendChild(createElement('p', 'We treat you like family.', 'tagline'));
 
   document.querySelector('#home').classList.add('selected');
   document.querySelector('#menu').classList.remove('selected');

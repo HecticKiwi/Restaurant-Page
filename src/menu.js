@@ -7,7 +7,6 @@ function createMenuItem(imgSrc, name, desc) {
   item.appendChild(img);
   item.appendChild(createElement('h3', name));
   item.appendChild(createElement('p', desc));
-  console.log('asd');
   return item;
 }
 
