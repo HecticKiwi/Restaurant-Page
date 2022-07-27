@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(e,t,n=""){const c=document.createElement(e);return c.innerText=t,c.className=n,c}!function(){const t=document.querySelector("main");t.innerHTML="",t.appendChild(e("h1","Restaurant")),t.appendChild(e("p","We treat you like family","tagline")),document.querySelector("#home").classList.add("selected")}()})();
