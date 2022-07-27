@@ -120,9 +120,3 @@ footer {
     justify-content: flex-end;
     color: gray;
 }
-
-@media (max-width: 500px) {
-    :root {
-        /* font-size::width: ; 90%; */
-    }
-}

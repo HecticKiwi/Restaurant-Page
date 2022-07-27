@@ -1,9 +1,4 @@
-function createElement(tag, text, className = '') {
-  const el = document.createElement(tag);
-  el.innerText = text;
-  el.className = className;
-  return el;
-}
+import createElement from './elements';
 
 function loadHome() {
   const main = document.querySelector('main');
